@@ -1,0 +1,300 @@
+<!doctype html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="images/Layer 62.png" sizes="32*32"> 
+<title>ISRO - Government of India</title>
+<link href="main.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="gridContainer">
+<!--top button -->
+<button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+
+  <!--Navigation Menu For Mobile -->
+  <div class="topnav">
+    <a href="#home" class="active-text">
+      <img src="images/Layer 62.png">
+      &nbsp;ISRO MANGALYAAN
+    </a>
+    <a href="javascript:void(0);" class="icon" onclick="openNav()">
+      <i class="fa fa-bars" style="color:white;"></i>
+    </a>
+  </div>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#Missions" onclick="myFunction12()"><i class="fa fa-arrow-right" aria-hidden="true"></i> &nbsp;Missions</a>
+    <a href="#Spacecraft" onclick="myFunction12()"><i class="fa fa-arrow-right" aria-hidden="true"></i> &nbsp;Spacecraft</a>
+    <a href="#launchers" onclick="myFunction12()"><i class="fa fa-arrow-right" aria-hidden="true"></i> &nbsp;launchers</a>
+    <a href="#Application" onclick="myFunction12()"><i class="fa fa-arrow-right" aria-hidden="true"></i> &nbsp;Application</a>
+    <a href="#Media" onclick="myFunction12()"><i class="fa fa-arrow-right" aria-hidden="true"></i> &nbsp;Media</a>
+    <a href="#Mangalyaan" onclick="myFunction12()"><i class="fa fa-arrow-right" aria-hidden="true"></i> &nbsp;Mangalyaan</a>
+    <a href="#About" onclick="myFunction12()"><i class="fa fa-arrow-right" aria-hidden="true"></i> &nbsp;About</a>
+    <a href="#Contact" onclick="myFunction12()"><i class="fa fa-arrow-right" aria-hidden="true"></i> &nbsp;Contact</a>
+    <a href="#social-link" style="border:0px;">
+      <img src="images/facebook.png" class="sidenav-icon">
+      <img src="images/twitter.png" class="sidenav-icon">
+    </a>
+    <a href="#links" style="border:0px;">
+      <img src="images/indiagov_logo.jpg" class="sidenav-thumb"><br>
+      <img src="images/india_code_logo.jpg" class="sidenav-thumb">
+    </a>
+  </div>
+
+  <script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "63%";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+
+
+// top button
+var mybutton = document.getElementById("myBtn");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+AOS.init()
+  </script>
+
+
+  <!-- dektop -->
+  <div class="navbar">
+    <div class="nav-item"><img class="icon" src="images/Layer 62.png"></div>
+    <ul class="nav-text">
+      <li><a href="#Missions" onclick="myFunction12()" class="active">Missions</a></li>
+      <li><a href="#Spacecraft" onclick="myFunction12()" class="nav-text">Spacecraft</a></li>
+      <li><a href="#launchers" onclick="myFunction12()" class="nav-text">launchers</a></li>
+      <li><a href="#Application" onclick="myFunction12()" class="nav-text">Application</a></li>
+      <li><a href="#Media" onclick="myFunction12()" class="nav-text">Media</a></li>
+      <li><a href="#Mangalyaan" onclick="myFunction12()" class="nav-text">Mangalyaan</a></li>
+      <li><a href="#About" onclick="myFunction12()" class="nav-text">About</a></li>
+      <li><a href="#Contact" onclick="myFunction12()" class="nav-text">Contact</a></li>
+    </ul>
+    <div class="nav-item"><img class="wing" src="images/pngwing.com.png"></div>
+  </div>
+
+  <script>
+    function myFunction12() {
+    document.documentElement.style.scrollBehavior = "smooth";
+    }
+  </script>
+
+
+
+  <div class="banner-section-sm banner-img-sm">
+    <div class="banner-text-sm"><span class="banner-text-heading-sm">Mangalyaan, India’s first Mars mission</span><br>
+      The Mars orbiter that boosted India’s planetary program</div>
+  </div>
+
+  <div class="banner-section banner-img">
+    <div class="banner-text"><span class="banner-text-heading">Mangalyaan, India’s first Mars mission</span><br>
+      The Mars orbiter that boosted India’s planetary program</div>
+  </div>
+
+
+  <a name="About">
+  <div class="about-section">
+    <h1 class="about-heading">About isro</h1>
+    <div id="about-container">
+      <img src="images/profile.jpg">
+      <p>India decided to go to space when Indian National Committee for Space Research (INCOSPAR) was set up by the Government of India in 1962. With the visionary Dr Vikram Sarabhai at its helm, INCOSPAR set up the Thumba Equatorial Rocket Launching Station (TERLS) in Thiruvananthapuram for upper atmospheric research.<br><br>
+
+      Indian Space Research Organisation, formed in 1969, superseded the erstwhile INCOSPAR. Vikram Sarabhai, having identified the role and importance of space technology in a Nation's development, provided ISRO the necessary direction to function as an agent of development. ISRO then embarked on its mission to provide the Nation space based services and to develop the technologies to achieve the same independently.</p>
+    </div>
+  </div>
+
+
+  <a name="Missions">
+  <!-- mobile -->
+  <div class="mission-section-sm">
+    <div class="mission-content-sm">
+      <h1 class="heading-sm">isro missions</h1>
+      <div class="dot-thumb-container-sm">
+        <div class="mission-heading-sm">114 spacecraft missions</div>
+        <div class="mission-heading-sm">83 launch missions</div>
+        <div class="mission-heading-sm">13 student satellite</div>
+        <div class="mission-heading-sm">2 re-entry missions</div>
+        <div class="mission-heading-sm">83 forigen satellite</div>
+      </div>
+    </div>
+  </div>
+  
+
+  <a name="Missions">
+  <!-- desktop -->
+  <div class="mission-section">
+    <img src="images/isro mission.jpg" class="mission-thumb">
+    <div class="mission-content">
+      <h1 class="heading">isro missions</h1>
+      <div class="mission-pipeline">
+        <div class="dot-thumb-container">
+          <i class="fa fa-dot-circle-o dot-thumb fa-spin" style="font-size:35px;"></i>
+          <i class="fa fa-dot-circle-o dot-thumb" style="font-size:35px;"></i>
+          <i class="fa fa-dot-circle-o dot-thumb" style="font-size:35px;"></i>
+          <i class="fa fa-dot-circle-o dot-thumb" style="font-size:35px;"></i>
+          <i class="fa fa-dot-circle-o dot-thumb" style="font-size:35px;"></i>
+        </div><br>
+
+        <div class="mission-titles">
+          <div class="card mission-heading">114 spacecraft missions</div>
+          <div class="card mission-heading">83 launch missions</div>
+          <div class="card mission-heading">13 student satellite</div>
+          <div class="card mission-heading">2 re-entry missions</div>
+          <div class="card mission-heading">83 forigen satellite</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <a name="Mangalyaan">
+  <div id="breif-section">
+   <div id="thumb-container">
+     <img src="images/mangalyaan.png" id="mangalyaan-thumb">
+    </div>
+   <div class="summary-container">
+    <p class="summary">On November 5, 2013, the Indian Space Research Organization (ISRO) launched its first spacecraft bound for Mars. India built Mangalyaan (“Mars craft” in English) to study the Red Planet and test key technologies required for exploring the inner solar system. The Mangalyaan spacecraft successfully entered Mars orbit on September 23, 2014, making ISRO only the fourth space agency in the world to do so. Prior to India, only the United States, the Soviet Union and the European Space Agency (ESA) had successfully explored Mars.<br><br>
+
+      Mangalyaan has been operating for more than seven years now, observing Martian landscapes and studying their composition using its five science instruments.</p>
+   </div>
+  </div>
+
+  <a name="Media">
+  <div class="mission-gallery-one">
+    <div class="mission-gallery-row-one">
+      <div class="gallery-thumb-one"><img data-aos="zoom-in-right" data-aos-duration="600" src="images/4l-Image-11.jpg" width="100%" height="100%"></div>
+      <div  class="gallery-thumb-one"><img data-aos="zoom-in-down" data-aos-duration="600" src="images/mangalyaan-prelaunch.webp" width="100%" height="100%"></div>
+      <div  class="gallery-thumb-one"><img data-aos="zoom-in-left" data-aos-duration="600" src="images/5275dcde85ca6.jpg" width="100%" height="100%"></div>
+    </div>
+    <div class="mission-gallery-row-one">
+      <div  class="gallery-thumb-one"><img data-aos="zoom-in-right" data-aos-duration="600" src="images/997814-mangalyaan-mission-twitter-nasahistory.jpg" width="100%" height="100%"></div>
+      <div  class="gallery-thumb-one"><img data-aos="zoom-in-up" data-aos-duration="600"  src="images/Mangalyaan_new_pic_360_5.webp" width="100%" height="100%"></div>
+      <div  class="gallery-thumb-one"><img data-aos="zoom-in-left" data-aos-duration="600" src="images/68c8204224804e409cde35f0bc47b129_6.webp" width="100%" height="100%"></div>
+    </div>
+  </div>
+
+
+  <a name="launchers">
+  <div class="mission-table">
+    <h1 class="mission-table-heading">mission table</h1>
+    <div id="mission-column-container">
+      <div class="mission-column">
+        <div class="sub-heading">Latest Mission</div>
+        <div class="mission-list"><i class="fa fa-angle-double-right mission-icon"></i>GSLV - F 10/EOS - 03</div>
+        <div class="mission-list"><i class="fa fa-angle-double-right mission-icon"></i>PSLV - C 51/AMAZONIA - 01</div>
+        <div class="mission-list"><i class="fa fa-angle-double-right mission-icon"></i>PSLV - C 50/CMS - 01</div>
+        <div class="mission-list"><i class="fa fa-angle-double-right mission-icon"></i>PSLV - C 49/ EOS - 01</div>
+      </div>
+      <div class="mission-column">
+        <div class="sub-heading">Trending Mission</div>
+        <div class="mission-list"><i class="fa fa-angle-double-right mission-icon"></i>GSLV - F10/EOS - 03</div>
+        <div class="mission-list"><i class="fa fa-angle-double-right mission-icon"></i>PSLV - C55/AMAZONIA- O9</div>
+        <div class="mission-list"><i class="fa fa-angle-double-right mission-icon hidden-icon"></i></div>
+        <div class="mission-list"><i class="fa fa-angle-double-right mission-icon hidden-icon"></i></div>
+      </div>
+      <div class="mission-column">
+        <div class="sub-heading">Future Mission</div>
+        <div class="mission-list"><i class="fa fa-angle-double-right mission-icon"></i>PSLV - C 50/MS - 01</div>
+        <div class="mission-list"><i class="fa fa-angle-double-right mission-icon"></i>PSLV - C 49/EOS - 04</div>
+        <div class="mission-list"><i class="fa fa-angle-double-right mission-icon hidden-icon"></i></div>
+        <div class="mission-list"><i class="fa fa-angle-double-right mission-icon hidden-icon"></i></div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="mission-gallery">
+    <div class="mission-gallery-row">
+      <div class="gallery-thumb"><img data-aos="zoom-in-right" data-aos-duration="600" src="images/bjs2139.jpg" width="100%"><p class="thumb-description">PSLV-C42 Mission</p></div>
+      <div  class="gallery-thumb"><img data-aos="zoom-in-down" data-aos-duration="600" src="images/c520828.jpg"><p class="thumb-description">PSLV-C52</p></div>
+      <div  class="gallery-thumb"><img data-aos="zoom-in-left" data-aos-duration="600" src="images/0-09.jpg"><p class="thumb-description">PSLV-C31/IRNSS-1E</p></div>
+    </div>
+    <div class="mission-gallery-row">
+      <div  class="gallery-thumb"><img data-aos="zoom-in-right" data-aos-duration="600"  src="images/img2500.jpg"><p class="thumb-description">Make in India Week</p></div>
+      <div  class="gallery-thumb"><img data-aos="zoom-in-up"    data-aos-duration="600" src="images/gslv-mkiii-x17.jpg"><p class="thumb-description">LVM-3/CARE</p></div>
+      <div  class="gallery-thumb"><img data-aos="zoom-in-left"  data-aos-duration="600" src="images/inaugural-session-1.jpg"><p class="thumb-description">National Meet</p></div>
+    </div>
+  </div>
+
+  
+  <div class="footer">
+    <div class="footer-column">
+      <a href="#">Procurement Live Register</a>
+      <a href="#">Tender Notices</a>
+      <a href="#">E-Procurement - New</a>
+      <a href="#">Right to Information</a>
+      <a href="#">Parliament Questions</a>
+      <a href="#">Publications</a>
+      <a href="#">Careers</a>
+      <a href="#">Annual Report (English / Hindi )</a>
+      <a href="#">Monthly Summary of DOS</a>
+      <a href="#">e-Saral Hindi Vakyakosh</a>
+    </div> 
+
+    <div class="footer-column">
+      <a href="#">International Cooperation</a>
+      <a href="#">Citizen's Charter</a>
+      <a href="#">India's Space Policy</a>
+      <a href="#">Autonomous Bodies under DoS</a>
+      <a href="#">Related Links</a>
+      <a href="#">Hyperlinking Policy</a>
+      <a href="#">CSSTEAP</a>
+      <a href="#">ISM Data Sheets</a>
+    </div>
+
+    <div class="footer-column">
+      <a href="#">National Voter's Service Portal</a> 
+      <a href="#">PIB</a> 
+      <a href="#">National Government Services<br> Portal(NGSP)</a><br> 
+      <a href="#">Check Your 7th CPC Pension<br>  Revision Status</a>
+    </div>
+
+    <div class="footer-column">
+      <p>
+        <a href="#"><img src="images/facebook.png" class="footer-icon-one"></a> 
+        <a href="#"><img src="images/twitter.png" class="footer-icon-one"></a>
+      </p>
+      <p>Last Updated Date :<br> March 10, 2022</p>
+      <p>
+        <a href="#"><img src="images/india_code_logo.jpg" class="footer-icon-two"></a>
+        <a href="#"><img src="images/indiagov_logo.jpg" class="footer-icon-two"></a>
+      </p>
+    </div>
+  </div>
+
+  <div class="sub-footer">
+    Site Map |  Timeline |  FAQ |   Disclaimer |  Careers |   Feedback |   Contact us |   Help<br> 
+    Copyright © 2022 ISRO, All Rights Reserved. Terms of Use |   Privacy Policy
+  </div>
+
+</div>
+</body>
+</html>
